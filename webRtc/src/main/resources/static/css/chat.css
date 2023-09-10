@@ -1,0 +1,74 @@
+#header h1 {
+	text-align: left;
+	padding: 5px 5px 5px 15px;
+	color: rgb(0, 128, 255);
+	border-left: 3px solid rgb(0, 128, 255);
+	margin-bottom: 20px;
+    margin: 20px 0px 20px 30px;
+}
+
+#welcome {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#welcome table {
+	margin-top: 10px;
+	width: 600px;
+}
+
+#roomName, #nickName{
+	width: fit-content;
+	margin: auto;
+	margin: 10px 0px;
+	font-size: 2rem;
+}
+
+#enterBtn {
+	margin: 10px 0px 0px 133px;
+}
+
+#controlDiv {
+	display: flex;
+	justify-content: center;
+}
+
+#control {
+	width: 310px;
+}
+
+#control div {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+#control button {
+	margin-bottom: 10px;
+}
+
+#myStream {
+	display: flex;
+}
+
+#myStream video {
+	padding: 25px 0px;
+	width: 40%;
+	height: 100%;
+	margin: auto;
+
+}
+
+
+#notificationDiv {
+	width: 301px;
+	height: 91px;
+	position: fixed;
+	bottom: 24px;
+	right: 30px;
+	border-radius: 1rem;
+	border: 1px solid #6c757d;
+	transition: 0.3s;
+	 opacity: 0;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
